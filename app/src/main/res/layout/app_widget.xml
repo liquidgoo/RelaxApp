@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="10dp">
+
+            <ImageView
+                android:id="@+id/calmWidget"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:src="@drawable/calm_icon" />
+
+            <ImageView
+                android:id="@+id/relaxWidget"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_marginLeft="5dp"
+                android:src="@drawable/relax_icon" />
+
+            <ImageView
+                android:id="@+id/focusWidget"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_marginLeft="5dp"
+                android:src="@drawable/focus_icon" />
+
+            <ImageView
+                android:id="@+id/excitedWidget"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_marginLeft="5dp"
+                android:src="@drawable/excited_icon" />
+
+            <ImageView
+                android:id="@+id/authenticWidget"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_marginLeft="5dp"
+                android:src="@drawable/authentic_icon" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/songArtistWidget"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Artist - Song"
+            android:textAlignment="center" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:background="@color/sedative_green"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/previousSongWidget"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:src="@drawable/ic_previous" />
+
+            <ImageView
+                android:id="@+id/playStopSongWidget"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:src="@drawable/ic_play_arrow" />
+
+            <ImageView
+                android:id="@+id/nextSongWidget"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:src="@drawable/ic_next" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

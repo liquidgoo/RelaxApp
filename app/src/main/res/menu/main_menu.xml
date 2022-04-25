@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/mmTutorial"
+        android:title="Руководство пользователя"
+        />
+
+    <item
+        android:id="@+id/mmHoroscope"
+        android:title="Гороскоп"
+        />
+
+    <item
+        android:id="@+id/mmBodyWeightIndex"
+        android:title="Расчет ИМТ"
+        />
+
+    <item
+        android:id="@+id/mmEyeTraining"
+        android:title="Разминка для глаз"
+        />
+
+    <item
+        android:id="@+id/mmDeveloperInfo"
+        android:title="Информация о разработчике"
+        />
+
+</menu>

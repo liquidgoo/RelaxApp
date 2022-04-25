@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:layout_margin="10dp"
+    android:background="@color/swamp_green">
+
+
+    <ImageView
+        android:id="@+id/ItemImage"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:scaleType="centerCrop"
+        android:src="@mipmap/ic_launcher_round"
+        android:layout_centerInParent="true"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true">
+
+        <Button
+            style="?android:attr/borderlessButtonStyle"
+            android:id="@+id/deleteItemButton"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="удалить"
+            android:textColor="@color/white"
+            android:textAllCaps="false"
+            android:backgroundTint="@color/swamp_green"
+            android:background="@color/swamp_green"
+            />
+
+        <Button
+            style="?android:attr/borderlessButtonStyle"
+            android:textAllCaps="false"
+            android:id="@+id/closeItemButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="закрыть"
+            android:textColor="@color/white"
+            android:backgroundTint="@color/swamp_green"
+            android:background="@color/swamp_green"
+            android:layout_weight="1"
+            />
+    </LinearLayout>
+</RelativeLayout>

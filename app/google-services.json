@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "368268379120",
+    "firebase_url": "https://relaxapp-d5970-default-rtdb.firebaseio.com",
+    "project_id": "relaxapp-d5970",
+    "storage_bucket": "relaxapp-d5970.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:368268379120:android:16a4abe86f65dab31dd335",
+        "android_client_info": {
+          "package_name": "by.bsuir.relaxapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "368268379120-knoopi8b3mam7t5rcs2dosgjuv76r64c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDiaRKbb_2IVRzFl3m9cwQWi7cpDuOJTOs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "368268379120-knoopi8b3mam7t5rcs2dosgjuv76r64c.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
